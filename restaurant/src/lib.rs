@@ -1,19 +1,11 @@
 
-mod front_of_house {
-    mod hosting {
-        fn add_to_waitlist() {}
+mod front_of_house;
 
-        fn seat_at_table() {}
-    }
+fn deliver_order() {}
 
-    mod serving {
-        fn take_order() {}
+mod back_of_house;
 
-        fn serve_order() {}
 
-        fn take_payment() {}
-    }
-}
 
 #[cfg(test)]
 mod tests {
